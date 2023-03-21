@@ -1,14 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_memcmp.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: earriaga <earriaga@student.42madrid.com    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/17 16:31:59 by earriaga          #+#    #+#             */
-/*   Updated: 2023/03/21 12:20:39 by earriaga         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
 
 // The memcmp() function compares byte string s1 against byte string s2.  
 // Both strings are assumed to be n bytes long.

@@ -1,14 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_calloc.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: earriaga <earriaga@student.42madrid.com    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/17 16:52:20 by earriaga          #+#    #+#             */
-/*   Updated: 2023/03/21 12:19:52 by earriaga         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
 
 // The calloc() function contiguously allocates enough 
 // space for count objects that are size bytes of

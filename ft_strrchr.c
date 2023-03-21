@@ -1,14 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strrchr.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: earriaga <earriaga@student.42madrid.com    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/12 12:41:37 by earriaga          #+#    #+#             */
-/*   Updated: 2023/03/21 12:22:54 by earriaga         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
 
 // The strchr() function locates the first occurrence of c (converted to a 
 // char) in the string pointed to by s.  The terminating null character

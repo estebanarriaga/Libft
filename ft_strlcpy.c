@@ -1,14 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strlcpy.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: earriaga <earriaga@student.42madrid.com    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/11 13:07:10 by earriaga          #+#    #+#             */
-/*   Updated: 2023/03/21 12:22:30 by earriaga         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
 
 // strlcpy() and strlcat() take the full size of the destination buffer and
 // guarantee NUL-termination if there is room.  Note that room for the NUL 

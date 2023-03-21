@@ -1,14 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: earriaga <earriaga@student.42madrid.com    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/11 16:32:55 by earriaga          #+#    #+#             */
-/*   Updated: 2023/03/21 12:20:43 by earriaga         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
 
 // The memcpy() function copies n bytes from memory area src to memory area
 // dst.  If dst and src overlap, behavior is undefined.  Applications in
