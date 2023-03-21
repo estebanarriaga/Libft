@@ -1,0 +1,50 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_atoi.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: earriaga <earriaga@student.42madrid.com    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/01/11 13:08:03 by earriaga          #+#    #+#             */
+/*   Updated: 2023/03/21 12:19:44 by earriaga         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+// The atoi() function converts the initial portion
+// of the string pointed to by str 
+// to int representation.
+
+#include "libft.h"
+
+int	ft_atoi(const char *str)
+{
+	int	sign;
+	int	num;
+
+	sign = 1;
+	num = 0;
+	while (*str == 32 || (*str >= 9 && *str <= 13))
+		str ++;
+	if (*str == '-' || *str == '+')
+	{
+		if (*str == '-')
+			sign = (-1);
+		str ++;
+	}
+	if (*str < '0' || *str > '9')
+		return (0);
+	while (*str >= '0' && *str <= '9')
+	{
+		num = num * 10 + (*str - '0');
+		str ++;
+	}
+	return (num * sign);
+}
+
+// int	main(void)
+// {
+// 	const char str[] = "\010 9";
+// 	printf("VALUE_OR: %d\n", ft_atoi(str));
+// 	printf("VALUE_FT: %d\n", atoi(str));
+// 	return (0);
+// }
