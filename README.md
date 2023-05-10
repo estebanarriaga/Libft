@@ -1,7 +1,19 @@
 # Libft
+
 A library of C functions for 42 Madrid
 
-## Context
-The project consists of two main parts:
-	1: The compulsory section
-	2: It involves all the bonus functions
+
+### The project consists of two main parts:
+
+1: The **main** part
+2: The **bonus** part
+
+The **main** part consist on a series of functions in C, some of which are copies from already existing UNIX functions like `ft_strlen()` which has the same functionality as `strlen()` and other are 42 made like `ft_split()`. The UNIX based functions were made based solely on the information from the man pages from each function.
+
+The correct functionality of the project was tested using the [francinette](https://github.com/xicodomingues/francinette) tester. This test all the possible errors and leaks that a concrete function may have. It also tests that the Makefile is working as it should.
+
+The functions are separated in individual files that are compiled into a `libft.a` file. You can find the purpose of each function at the beginning of the function file.
+
+
+The **bonus** part is optional and consist of working with C structures.
+The node list can be found in the `libft.h` file.
