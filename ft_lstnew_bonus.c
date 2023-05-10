@@ -1,11 +1,9 @@
 
-// Content: el contenido con el que crear el nodo
-// Devuelve: El nuevo nodo
-
-// Crea un nuevo nodo utilizando malloc().
-// La variable miembro 'content' se inicializa con
-// el contenido del parametro 'content'. La variable
-// 'next', con NULL.
+/*
+	The function ft_lstnew() creates a new node using malloc().
+	The variable 'content' is initialiced with the content of
+	the parameter 'content', the variable 'next' with NULL.
+*/
 
 #include "libft.h"
 

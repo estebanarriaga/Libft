@@ -1,4 +1,9 @@
 
+/*
+	Prinst a given character and an end of line 
+	with a given file descriptor
+*/
+
 #include "libft.h"
 
 void	ft_putendl_fd(char *s, int fd)

@@ -1,12 +1,14 @@
 
-// The strnstr() function locates the first occurrence of the null-terminated
-// string needle in the string haystack, where not more than len characters
-// are searched.  Characters that appear after a
-// '\0' character are not searched.
+/*
+	The strnstr() function locates the first occurrence of the null-terminated
+	string needle in the string haystack, where not more than len characters
+	are searched.  Characters that appear after a
+	'\0' character are not searched.
 
-// If needle is an empty string, haystack is returned; if needle occurs
-// nowhere in haystack, NULL is returned; otherwise a pointer to the first
-// character of the first occurrence of needle is returned.
+	If needle is an empty string, haystack is returned; if needle occurs
+	nowhere in haystack, NULL is returned; otherwise a pointer to the first
+	character of the first occurrence of needle is returned.
+*/
 
 #include "libft.h"
 
@@ -36,16 +38,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }
-
-// int main(void)
-// {
-// 	const char *largestring = "aaabcabcd";
-// 	const char *smallstring = "abcd";
-// 	char *ptr_ft;
-// 	char *ptr_or;
-// 	ptr_ft = ft_strnstr(largestring, smallstring, 9);
-// 	ptr_or = strnstr(largestring, smallstring, 9);
-// 	printf("VALUE_FT: %s\n", ptr_ft);
-// 	printf("VALUE_OR: %s\n", ptr_or);
-// 	return (0);
-// }

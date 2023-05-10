@@ -1,17 +1,15 @@
 
-// s: La string a separar.
-// c: El carácter delimitador.
 
-// Davuelve: El array de nuevas strings resulatente de la
-// separación.
-// NULL si falla la reserva de memoria.
-
-// malloc, free
-
-// Reserva (utilizando malloc(3)) un array de strings
-// resultante de separar la string ’s’ en substrings
-// utilizando el caracter ’c’ como delimitador. El
-// array debe terminar con un puntero NULL.
+/*
+	The function ft_split() a string and a character that is
+	going to work as a separator.
+	
+	The function returns an array of strings resulting from the
+	separation if the given string separated by the given character
+	
+	The character that works as a delimiter is not included in the
+	resulting strings
+*/
 
 #include "libft.h"
 
@@ -98,14 +96,3 @@ char	**ft_split(char const *s, char c)
 		return (0);
 	return (res);
 }
-
-// int main(void)
-// {
-// 	ft_split("\0aa\0bbb", '\0');
-// 	ft_split("                  olol", ' '); // Fails
-// 	ft_split("split  ||this|for|me|||||!|", '|');
-// 	ft_split("Hellow how are you", 'o');
-// 	ft_split("      split       this for   me  !       ", ' ');
-// 	ft_split("olol                     ", ' ');
-// 	return (0);
-// }

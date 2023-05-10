@@ -1,7 +1,9 @@
 
-// Returns true if c is an alphabetic character (a letter).
-// If islower or isupper is true of a character, then isalpha 
-// is also true.
+/*
+	Returns true if c is an alphabetic character (a letter).
+	If islower or isupper is true of a character, then isalpha 
+	is also true.
+*/
 
 #include "libft.h"
 
@@ -12,10 +14,3 @@ int	ft_isalpha(int c)
 	else
 		return (0);
 }
-/*
-int	main(void)
-{
-	printf("VALUE_FT:  %d\n", ft_isalpha(' '));
-	printf("VALUE_OR:  %d\n", isalpha(' '));
-	return (0);
-}*/

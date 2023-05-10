@@ -1,12 +1,8 @@
 
-// n: el entero a convertir
-
-// Devuelve: La string que represente el número.
-// NULL si falla la reserva de memoria
-
-// Utilizando malloc(3), genera una string que
-// represente el valor entero recibido como argumento.
-// Los números negativos tienen que gestionarse.
+/*
+	The ft_itoa() function converts an int into a string using malloc()
+	Returns the resulting string
+*/
 
 #include "libft.h"
 

@@ -1,6 +1,6 @@
 
-// lst: El principio de la lista
-// Devuelve el último nodo de la lista
+
+//	The function ft_lstlast() returns the last node of the list
 
 #include "libft.h"
 

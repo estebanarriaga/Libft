@@ -1,11 +1,8 @@
 
-// s: La string que iterar.
-// f: La función a aplicar sobre cada carácter
-
-// A cada carácter de la string ’s’, aplica la función
-// ’f’ dando como parámetros el índice de cada
-// carácter dentro de ’s’ y la dirección del propio
-// carácter, que podrá modificarse si es necesario
+/*
+	The function ft_striteri() applies the function f() given
+	as a parameter inside 's' and in the pointer direction.
+*/
 
 #include "libft.h"
 

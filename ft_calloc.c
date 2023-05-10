@@ -1,13 +1,15 @@
 
-// The calloc() function contiguously allocates enough 
-// space for count objects that are size bytes of
-// memory each and returns a pointer to the allocated memory.
-// The allocated memory is filled with bytes
-// of value zero.
+/*
+	The calloc() function contiguously allocates enough 
+	space for count objects that are size bytes of
+	memory each and returns a pointer to the allocated memory.
+	The allocated memory is filled with bytes
+	of value zero.
 
-// If successful, calloc() function
-// returns a pointer to allocated memory.  If there is an error,
-// they return a NULL pointer and set errno to ENOMEM.
+	If successful, calloc() function
+	returns a pointer to allocated memory.  If there is an error,
+	they return a NULL pointer and set errno to ENOMEM.
+*/
 
 #include "libft.h"
 
@@ -27,14 +29,3 @@ void	*ft_calloc(size_t count, size_t size)
 	}
 	return (ptr);
 }
-/*
-int main(void)
-{
-	char *ptr_ft = ft_calloc(10, 1);
-	char *ptr_or = calloc(10 , 1);
-	
-	printf("VALUE_FT: %s\n", ptr_ft);
-	printf("VALUE_OR: %s\n", ptr_or);
-
-	return (0);
-}*/

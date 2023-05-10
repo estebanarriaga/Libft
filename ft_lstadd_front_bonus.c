@@ -1,11 +1,8 @@
 
-// lst: la dirección de un puntero al primer nodo de
-// una lista.
-// new: un puntero al nodo que añadir al principio de
-// la lista.
-
-// Añade el nodo ’new’ al principio de la lista ’lst’.
-// No devuelve nada
+/*
+	The function ft_lstadd_font() add the node 'new' at the
+	beggining of the list 'lst'
+*/
 
 #include "libft.h"
 

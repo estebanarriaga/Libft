@@ -1,8 +1,8 @@
 
-// lst: el principio de la lista
-// Devuelve: La longitud de la lista
-
-// Cuenta el número de nodos en la lista
+/*
+	The function ft_lstsize() returns the number
+	of nodes in a list
+*/
 
 #include "libft.h"
 

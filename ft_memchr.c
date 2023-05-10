@@ -1,9 +1,11 @@
 
-// The memchr() function locates the first occurrence of c (converted to an
-// unsigned char) in string s.
+/*
+	The ft_memchr() function locates the first occurrence of c (converted to an
+	unsigned char) in string s.
 
-// The memchr() function returns a pointer to the byte located, or NULL if
-// no such byte exists within n bytes.
+	The ft_memchr() function returns a pointer to the byte located, or NULL if
+	no such byte exists within n bytes.
+*/
 
 #include "libft.h"
 
@@ -24,13 +26,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (0);
 }
-/*
-int main(void)
-{
-	char buffer[] = "Hello, World";
-
-	printf("VALUE_FT: %s\n", ft_memchr(buffer, 'o', sizeof(buffer)));
-	printf("VALUE_OR: %s\n", memchr(buffer, 'o', sizeof(buffer)));
-	
-	return (0);
-}*/

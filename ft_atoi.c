@@ -1,7 +1,9 @@
 
-// The atoi() function converts the initial portion
-// of the string pointed to by str 
-// to int representation.
+/*
+	The atoi() function converts the initial portion
+	of the string pointed to by str 
+	to int representation.
+*/
 
 #include "libft.h"
 
@@ -29,11 +31,3 @@ int	ft_atoi(const char *str)
 	}
 	return (num * sign);
 }
-
-// int	main(void)
-// {
-// 	const char str[] = "\010 9";
-// 	printf("VALUE_OR: %d\n", ft_atoi(str));
-// 	printf("VALUE_FT: %d\n", atoi(str));
-// 	return (0);
-// }

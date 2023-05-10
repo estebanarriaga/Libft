@@ -1,13 +1,15 @@
 
-// The memcmp() function compares byte string s1 against byte string s2.  
-// Both strings are assumed to be n bytes long.
+/*
+	The ft_memcmp() function compares byte string s1 against byte string s2.  
+	Both strings are assumed to be n bytes long.
 
-// The memcmp() function returns zero if the two strings are identical,
-// otherwise returns the difference between the first two differing bytes
-// (treated as unsigned char values, so that '\200' is greater than '\0',
-// for example).  Zero-length strings are always identical.
-// This behavior is not required by C and portable code should only depend
-//  on the sign of the returned value.
+	The ft_memcmp() function returns zero if the two strings are identical,
+	otherwise returns the difference between the first two differing bytes
+	(treated as unsigned char values, so that '\200' is greater than '\0',
+	for example).  Zero-length strings are always identical.
+	This behavior is not required by C and portable code should only depend
+	on the sign of the returned value.
+*/
 
 #include "libft.h"
 
@@ -30,14 +32,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-/*
-int main(void)
-{
-	const char s1[] = "Hell";
-	const char s2[] = "Hello, ";
-
-	printf("VALUE_FT: %d\n", ft_memcmp(s1, s2, sizeof(s1)));
-	printf("VALUE_OR: %d\n", memcmp(s1, s2, sizeof(s1)));
-
-	return (0);
-}*/

@@ -1,14 +1,9 @@
 
-// lst: El nodo a liberar
-// del: un puntero a la funcion utilizada para liberar
-// el contenido del nodo
-
-// free()
-
-// Toma como parámetro el nodo 'lst' y libera la memoria
-// del contenido utilizando la función 'del', además de 
-// liberar el nodo.
-// La memoria de 'next' no debe liberarse.
+/*
+	The function ft_lstdelone() takes the node 'lst' and liberates
+	the memory of its content using the del() function, aside from
+	liberating the memory of the content
+*/
 
 #include "libft.h"
 

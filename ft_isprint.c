@@ -1,7 +1,9 @@
 
-// Returns true if c is a printing character. 
-// Printing characters include all the graphic characters,
-// plus the space (‘ ’) character. 
+/*
+	Returns true if c is a printing character. 
+	Printing characters include all the graphic characters,
+	plus the space (‘ ’) character. 
+*/
 
 #include "libft.h"
 
@@ -12,10 +14,3 @@ int	ft_isprint(int c)
 	else
 		return (0);
 }
-/*
-int	main(void)
-{
-	printf("VALUE_FT: %d\n", ft_isprint(127));
-	printf("VALUE_OR: %d\n", isprint(127));
-	return (0);
-}*/

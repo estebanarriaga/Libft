@@ -1,4 +1,6 @@
 
+// Prinst a given string with a given file descriptor
+
 #include "libft.h"
 
 void	ft_putstr_fd(char *s, int fd)

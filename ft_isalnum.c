@@ -1,7 +1,9 @@
 
-// Returns true if c is an alphanumeric character (a letter or number); 
-// in other words, if either isalpha or isdigit is true of a character, 
-// then isalnum is also true.
+/*
+	Returns true if c is an alphanumeric character (a letter or number); 
+	in other words, if either isalpha or isdigit is true of a character, 
+	then isalnum is also true.
+*/
 
 #include "libft.h"
 
@@ -12,10 +14,3 @@ int	ft_isalnum(int c)
 	else
 		return (0);
 }
-/*
-int main(void)
-{
-	printf("VALUE_FT: %d\n", ft_isalnum('1'));
-	printf("VALUE_OR: %d\n", isalnum('1'));
-	return (0);
-}*/

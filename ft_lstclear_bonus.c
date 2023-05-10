@@ -1,14 +1,8 @@
 
-// lst: la direccion de un puntero a un nodo
-// del: un puntero a función utilizado para
-// eliminar el contenido de un nodo
-
-// free()
-
-// Elimina y libera el nodo 'lst' dado y todos los
-// consecutivos de ese nodo, utilizando la función
-// 'del' y free()
-// Al final, el puntero a la lista debe ser NULL
+/*
+	The function ft_lstclear() eliminates the given node 'lst' and 
+	all its consecutives using the function 'del' on  each pointer
+*/
 
 #include "libft.h"
 

@@ -1,8 +1,8 @@
 
-// lst: el puntero al primer nodo de una lista
-// new: el puntero a añadir a una lista
-
-// Añade el nodo 'new' al final de la lista 'lst'
+/*
+	The fuction ft_lstadd_back() adds the node 'new'
+	at the end of the list 'lst'
+*/
 
 #include "libft.h"
 

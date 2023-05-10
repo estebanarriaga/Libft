@@ -1,9 +1,8 @@
 
-// lst: un puntero al primer nodo
-// f: un puntero a la funcion que utilizará cada nodo
-
-// Itera la lista 'lst' y aplica la funcion 'f' en el
-// contenido de cada nodo
+/*
+	The function ft_lstiter() iterates the list 'lst' and applies
+	the function f() on the content of each node
+*/
 
 #include "libft.h"
 

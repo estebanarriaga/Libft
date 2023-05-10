@@ -1,4 +1,6 @@
 
+// Prinst a given number with a given file descriptor
+
 #include "libft.h"
 
 void	ft_putnbr_fd(int n, int fd)
@@ -25,11 +27,3 @@ void	ft_putnbr_fd(int n, int fd)
 		write(fd, &n, 1);
 	}
 }
-/*
-int     main(void)
-{
-        int num = -124234;
-
-        ft_putnbr_fd(num, 1);
-        return (0);
-}*/
