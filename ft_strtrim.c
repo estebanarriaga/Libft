@@ -1,7 +1,7 @@
 
 /*
 	ft_strtrim() eliminates all the character on the string 'set'
-	from the beggining and the end of 's1' until it finds a character
+	from the beginning  and the end of 's1' until it finds a character
 	tha is not found on 'set'.
 
 	The resulted string is returned, NULL in case of error

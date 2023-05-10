@@ -1,7 +1,7 @@
 
 /*
 	The function ft_lstadd_font() add the node 'new' at the
-	beggining of the list 'lst'
+	beginning  of the list 'lst'
 */
 
 #include "libft.h"
